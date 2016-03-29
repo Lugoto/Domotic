@@ -1,0 +1,55 @@
+@font-face {
+    font-family: "domo";
+    src: url('../font/master_of_break.ttf');
+}
+
+@font-face {
+    font-family: "bebas";
+    src: url('../font/BEBAS___.TTF');
+}
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.menu{
+  width: 100%;
+  height: 50px;
+  //background-color: red;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  z-index: 91;
+}
+
+.titre{
+  font-family: "domo", Helvetica, Arial, sans-serif;
+  color: #1fd682;
+  width: auto;
+  height: 100%;
+  //background-color: blue;
+  float: left;
+  padding-left: 20px;
+  margin-top: -5px;
+  font-size: 2em;
+}
+
+nav {
+  float: right;
+  height: 40px;
+  padding-top: 12px;
+  text-align: center;
+}
+
+.link-1 {
+  font-family: "bebas";
+  transition: 0.3s ease;
+  color: #a8a8a8;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 20px 20px;
+  margin: 0 20px;
+}
+.link-1:hover {
+  border-top: 4px solid #1fd682;
+  padding: 10px 20px;
+}
