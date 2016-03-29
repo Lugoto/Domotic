@@ -1,0 +1,12 @@
+
+  <div class="menu">
+    <div class="titre">
+      Domotic
+    </div>
+    <nav id="nav-1">
+      <a class="link-1" href="#">Chambre</a>
+      <a class="link-1" href="#">Cuisine</a>
+      <a class="link-1" href="#">Salle de bain</a>
+      <a class="link-1" href="#">Salon</a>
+    </nav>
+  </div>

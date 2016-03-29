@@ -8,48 +8,21 @@
     src: url('../font/BEBAS___.TTF');
 }
 
-*{
-  padding: 0;
-  margin: 0;
-}
-
-.menu{
-  width: 100%;
-  height: 50px;
-  //background-color: red;
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
-  z-index: 91;
-}
-
-.titre{
+.brand-logo{
   font-family: "domo", Helvetica, Arial, sans-serif;
-  color: #1fd682;
-  width: auto;
-  height: 100%;
-  //background-color: blue;
-  float: left;
-  padding-left: 20px;
-  margin-top: -5px;
-  font-size: 2em;
+  color: #1fd682 !important;
+  margin-left: 1%;
 }
 
-nav {
-  float: right;
-  height: 40px;
-  padding-top: 12px;
-  text-align: center;
+.nav-wrapper{
+  background-color: white;
 }
 
-.link-1 {
-  font-family: "bebas";
-  transition: 0.3s ease;
-  color: #a8a8a8;
-  font-size: 20px;
-  text-decoration: none;
-  padding: 20px 20px;
-  margin: 0 20px;
+li a{
+  font-family: "bebas", Helvetica, Arial, sans-serif;
+  color: #a8a8a8 !important;
 }
-.link-1:hover {
-  border-top: 4px solid #1fd682;
-  padding: 10px 20px;
+
+i{
+  color: #1fd682 !important;
 }
