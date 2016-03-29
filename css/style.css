@@ -8,6 +8,18 @@
     src: url('../font/BEBAS___.TTF');
 }
 
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500,600);
+
+::selection{
+  background-color: #1fd682;
+  color: white;
+}
+
+::-moz-selection {
+  background-color: #1fd682;
+  color: white;
+}
+
 .brand-logo{
   font-family: "domo", Helvetica, Arial, sans-serif;
   color: #1fd682 !important;
@@ -25,4 +37,39 @@ li a{
 
 i{
   color: #1fd682 !important;
+}
+
+.gris{
+  height: 3px;
+  width: 100%;
+  background-color: #1fd682;
+}
+
+.text{
+  font-size: 1vw;
+  height: auto;
+  width: 100%;
+  padding: 0.5%;
+  font-family: "Roboto";
+  color: #a8a8a8;
+}
+
+.text2{
+  font-size: 1vw;
+  height: 5px;
+  width: auto;
+  float: left;
+  font-family: "Roboto";
+  color: #1fd682;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 1300px) {
+  .text{
+    font-size: 14px;
+  }
+
+  .text2{
+    font-size: 14px;
+  }
 }

@@ -25,6 +25,7 @@
         <li><a href="collapsible.html">Chambre</a></li>
         <li><a href="mobile.html">Salon</a></li>
       </ul>
+
       <ul class="side-nav" id="mobile-demo">
         <li><a href="sass.html">Home</a></li>
         <li><a href="sass.html">Cuisine</a></li>
@@ -34,7 +35,7 @@
       </ul>
     </div>
   </nav>
-
+<div class="gris"></div>
 
 
     <div id="wowslider-container1">
@@ -48,6 +49,13 @@
   	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com/vi">slider</a> by WOWSlider.com v8.7</div>
   	<div class="ws_shadow"></div>
   	</div>
+    <div class="gris"></div>
+    <div class="text">
+      <div class="text2">L</div>orem ipsum dolor sit amet, consectetur adipiscing elit. Cras aliquet leo ac accumsan congue. Quisque scelerisque eu nulla vel sagittis. Nullam ut ullamcorper mauris.
+      Nunc congue finibus ex, at egestas ipsum auctor congue. Aenean ligula elit, pellentesque at nunc et, efficitur scelerisque arcu. Integer convallis fermentum orci in placerat.
+      Nullam et imperdiet nisi. Suspendisse aliquam malesuada turpis vel mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Nulla tincidunt dapibus magna, ut interdum sapien venenatis ut.
+    </div>
 
 
 
